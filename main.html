@@ -5,8 +5,8 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     <style>
 
-        .searchbar{ width: 700px;
-            height: 700px;
+        .searchbar{ width: auto;
+            height: auto;
         }
         
         h1 { font-size : 2em}
@@ -21,6 +21,10 @@
             font-family: "Fira Sans Hair", san-serif; 
         }  
         
+        .topbutton {
+            text-decoration: none;
+            color: black;
+        }
 /*        The code below is for the navigation bar, the list-style-type removes the bullet points form the list.*/
         ul{ list-style-type: none;
         margin:0;
@@ -29,14 +33,14 @@
         </style>
     </head>
     <body>
-    <img src= " ">
-        
+    <img src= "logo.png">
+       <div class=topbutton>
       <ul>
           <li> <a href="home.asp">Home</a> </li>
         <li> <a href = "search.asp">Search</a> </li> 
         </ul>
         <br> 
-        
+        </div>
 <!--        We'll need to connect the Location button to the google API (but its a java api)-->
         <div class="search">
             <label for="searchbar">Search for Restraunts : </label> 

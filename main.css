@@ -15,3 +15,29 @@ li{ float: left;
         margin: 0;
         padding:0;
     }
+    
+    
+.searchbar{ 
+    width: auto;
+    height: auto;
+}
+        
+h1 { 
+    font-size : 2em;
+}
+
+li { 
+    float: left;
+    display: block;
+    width: 500px; 
+}
+        
+ body {
+    font-size: 80px;
+    font-family: "Fira Sans Hair", san-serif; 
+}  
+        
+.topbutton {
+    text-decoration: none;
+    color: black;
+}
