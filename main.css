@@ -6,24 +6,28 @@
 h1 { text-align: centre 
 }
 
-li{ float: left;
-    a {display: block;
-        width: 60px;
-    }
+li{ 
+    float: left;
+}
 
-    ul { list-style-type:none;
-        margin: 0;
-        padding:0;
-    }
+a {
+    display: inline-block;
+}
+
+ul { 
+    list-style-type:none;
+    margin: 0;
+    padding:0;
+}
     
     
-.searchbar{ 
+.searchbar { 
     width: auto;
     height: auto;
 }
         
 h1 { 
-    font-size : 2em;
+    font-size: 2em;
 }
 
 li { 
@@ -40,4 +44,38 @@ li {
 .topbutton {
     text-decoration: none;
     color: black;
+    background-color: aqua;
+}
+    
+a.topbutton:hover {
+    background-color: yellow;
+}
+
+#arrow {
+	width: 18.3%;
+	height: 300px;
+	background-image: url(arrow.png);
+	background-size: 100% 100%;
+	position:absolute;
+	top:0;
+	left:30.5%;
+	z-index:-1;
+}
+/*.banner-logo {
+	background-image: url("logo.jpg");
+	width:100%;
+	height:300px;
+	background-size: 50% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}*/
+.banner-logo {
+	text-align:center;
+}
+.banner-logo img {
+	width:50%;
+	max-width: 100%;
+}
+.banner-logo img {
+	max-width: 100%;
 }
