@@ -3,18 +3,53 @@
     <head>
     <title>Ratify</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <style>
+
+        .searchbar{ width: 7000px; 
+        }
+        
+        h1 { font-size : 2em}
+
+        li{ float: left;
+            display: block;
+            width: 500px;
+        }
+        
+        body {
+            font-size: 80px;
+            font-family: Helvetica, san-serif; 
+        }
+        
+        
+        
+        
+        
+/*        The code below is for the navigation bar, the list-style-type removes the bullet points form the list.*/
+        ul{ list-style-type: none;
+        margin:0;
+        padding:0; }
+        
+        </style>
     </head>
     <body>
         <h1>Ratify</h1>
+      <ul>
+          <li> <a href="home.asp">Home</a> </li>
+        <li> <a href = "search.asp">Search</a> </li> 
+        </ul>
+        <br> 
+        
+<!--        We'll need to connect the Location button to the google API (but its a java api)-->
         <div class="searchbar">
             <label for="searchbar">Search for Restraurants : </label> 
  <input id="searchbaraa" type="search" placeholder="Type in a restaurant name"> 
         </div>
         <div class="locationr">
-        
-        <button onclick="getLocation()">Try It</button>
+
+        <button onclick="getLocation()">Your Location</button>
         
         <p id="demo"></p>
+       
         <script>
 var x = document.getElementById("demo");
 function getLocation() {
@@ -30,5 +65,11 @@ function getLocation() {
  }
 </script>
         </div>
+    
+
+
+        
+        
+        
     </body>
 </html>
