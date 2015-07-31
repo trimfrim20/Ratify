@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> Ratify </title> 
+</head>
+<body>
+<h1> What we bring to the table </h1>
+<h3> Exsisting Websites/Apps </h3>
+<p> We've looked at lots of different exsisting apps and web sites which are in a similar category to our own web site . </p>
+<p> An example of an app we looked at was the Zomato - Food Menu + Reviews app and they provide servies such as user reviews, and near location services. </p>
+<p> Also an example of a web site we looked at was the Scores On The Doors web site that provide services such as hygiene ratings using the open data from Food Standards Agency, services such as user ratings from Trip Advisor and Location services from Google Maps. </p>
+<p> Some of the down falls of existing apps and web sites include, user reviews as it means that you don't get a varied amount of results as you have to already have the app or sign up to the web sites to create the reviews. Also some of the down falls of apps and web sites is that they are just for resturants which isn't the only type of business that deals with food. </p>
+<h4> So what makes us different? What do we bring to the table? </h4>
+<p> We want to create a new way of looking up food businesses. Our idea is to combine twitter tweets with the food standards agency ratings to give an over all idea which isn't bias of the reviews for food businesses. What makes us different is that, we as an web site don't need to be downloaded, the web site doesn't just give information on resturants but food businesses on a whole using the Food Stadards Agency API and we are not bias as we use tweets and not user reviews.
+</p>
+</body>
+
+
+
+</html>
